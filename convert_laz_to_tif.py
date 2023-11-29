@@ -40,7 +40,7 @@ def las_to_tif(input_las_file, output_tif_file):
                 "type": "writers.gdal",
                 "filename": "{output_tif_file}",
                 "output_type": "idw",
-                "resolution": 1.0 
+                "resolution": 6.0 
             }}
         ]
     }}
